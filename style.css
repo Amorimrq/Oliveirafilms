@@ -35,6 +35,11 @@ header,texto{
 
 }
 
+.links{
+  text-decoration: none;
+    font-size: 10px;
+}
+
 .pesquisa::placeholder {  
   background-color: transparent;
   color: white;
