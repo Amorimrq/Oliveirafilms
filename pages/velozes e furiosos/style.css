@@ -11,6 +11,7 @@ body{
     background-attachment: fixed;
     color: white;
     
+    
 }
 
 header{
@@ -31,7 +32,7 @@ header{
 
 header,texto{
     padding-left: 50px;
-    font-size: 70px;
+    font-size: 80px;
 
 }
 
@@ -51,8 +52,8 @@ header,texto{
 .posterfilme img{
   margin: 10px;
   border-radius: 16px;
-  width: 220px;
-  height: 320px;
+  width: 280px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -66,17 +67,18 @@ header,texto{
   align-items: flex-start;
   gap: 12px;
   width: 100%;
+  font-size: 40px;
 }
 
 .caixadescricao{
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.558);
   border-radius: 16px;
   text-align: bottom;
   
 }
 
 .caixano{
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.558);
   border-radius: 16px;
   text-align: bottom;
   display: block;
@@ -85,7 +87,7 @@ header,texto{
 }
 
 .caixadirecao, .caixagenero {
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.558);
   border-radius: 16px;
   text-align: bottom;
   display:block;
@@ -93,7 +95,7 @@ header,texto{
 }
 
 .caixagenero{
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.558);
 }
 
 .info-linha{
@@ -109,9 +111,11 @@ header,texto{
 }
 
 .caixatrailer{
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.558);
   border-radius: 16px;
-  padding: 10px;
+  padding-bottom: 30px;
+  padding-right: 560px;
+  
   flex: 0 0 420px;
   max-width: 420px;
 }
@@ -120,7 +124,9 @@ header,texto{
   display: block;
   width: 100%;
   height: 236px;
+  width: 500px;
   border-radius: 10px;
+  margin-left: 30px;
 }
 
 .info-trailer{
@@ -141,7 +147,7 @@ header,texto{
 
 .enredo, .paragrafo, .ano{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 25px;
   margin: 10px;
   
 
