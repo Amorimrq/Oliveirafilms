@@ -197,6 +197,14 @@ header ul{
 
 }
 
+h2{
+  text-align: center;
+}
+
+.titulo-categoria{
+  text-align: center;
+}
+
 footer{
   margin-top: 50px;
   font-family: 'Bebas Neue', sans-serif;

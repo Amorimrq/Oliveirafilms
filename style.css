@@ -220,6 +220,8 @@ input.pesquisa{
   display: block;
 }
 
+
+
 .card{
   display: flex;
   flex-direction: column;
@@ -274,6 +276,9 @@ section{
   text-align: center;
 }
 
+.categoria-titulo{
+  text-align: center
+}
 
 
 
